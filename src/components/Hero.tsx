@@ -18,9 +18,11 @@ const Hero = () => {
       <div className="relative z-10 container mx-auto px-4 text-center text-white">
         <div className="max-w-4xl mx-auto space-y-6 animate-fade-in">
           <h1 className="text-4xl md:text-6xl font-bold leading-tight">
-            India's #1
+            Discover the best
             <br />
-            <span className="text-primary-glow">food delivery app</span>
+            <span className="text-primary-glow">food & drinks</span>
+            <br />
+            in your city
           </h1>
           
           <p className="text-lg md:text-xl text-white/90 max-w-2xl mx-auto">

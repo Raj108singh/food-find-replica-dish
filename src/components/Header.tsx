@@ -10,16 +10,19 @@ const Header = () => {
           {/* Logo */}
           <div className="flex items-center space-x-2">
             <div className="w-8 h-8 bg-gradient-primary rounded-lg flex items-center justify-center">
-              <span className="text-primary-foreground font-bold text-lg">F</span>
+              <span className="text-primary-foreground font-bold text-lg">Z</span>
             </div>
-            <span className="text-xl font-bold text-primary">FoodFind</span>
+            <span className="text-xl font-bold text-primary">Zomato</span>
           </div>
 
-          {/* Location */}
-          <div className="hidden md:flex items-center space-x-2 text-muted-foreground">
-            <MapPin className="w-4 h-4" />
-            <span className="text-sm">Deliver to</span>
-            <span className="text-foreground font-medium">Current Location</span>
+          {/* Location Selector */}
+          <div className="hidden md:flex items-center space-x-3 bg-muted rounded-lg px-4 py-2">
+            <MapPin className="w-4 h-4 text-muted-foreground" />
+            <div className="flex flex-col">
+              <span className="text-xs text-muted-foreground">Deliver to</span>
+              <span className="text-sm font-medium text-foreground">Mumbai, Maharashtra</span>
+            </div>
+            <button className="text-xs text-primary font-medium">Change</button>
           </div>
 
           {/* Search Bar - Hidden on mobile */}

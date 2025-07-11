@@ -46,18 +46,29 @@ const Footer = () => {
   return (
     <footer className="bg-card border-t border-border">
       <div className="container mx-auto px-4 py-12">
+        {/* Language & Country Selector */}
+        <div className="flex flex-wrap items-center justify-center gap-4 mb-8 pb-8 border-b border-border">
+          <div className="flex items-center space-x-2">
+            <span className="text-sm text-muted-foreground">🇮🇳</span>
+            <span className="text-sm font-medium">India</span>
+          </div>
+          <div className="flex items-center space-x-2">
+            <span className="text-sm text-muted-foreground">🌐</span>
+            <span className="text-sm font-medium">English</span>
+          </div>
+        </div>
         {/* Main Footer Content */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-8 mb-8">
           {/* Brand Section */}
           <div className="lg:col-span-1">
             <div className="flex items-center space-x-2 mb-4">
               <div className="w-8 h-8 bg-gradient-primary rounded-lg flex items-center justify-center">
-                <span className="text-primary-foreground font-bold text-lg">F</span>
+                <span className="text-primary-foreground font-bold text-lg">Z</span>
               </div>
-              <span className="text-xl font-bold text-primary">FoodFind</span>
+              <span className="text-xl font-bold text-primary">Zomato</span>
             </div>
-            <p className="text-muted-foreground text-sm mb-4">
-              India's #1 food delivery app. Discover new tastes and get your favorite meals delivered fast.
+            <p className="text-muted-foreground text-sm mb-6">
+              Discover the best food & drinks in your city. Fast delivery, great restaurants, and amazing experiences.
             </p>
             
             {/* Contact Info */}
